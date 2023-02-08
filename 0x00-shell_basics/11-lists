@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alh --group-directories-first --color=auto . ../ /boot
+ls -alh --group-directories-first --color=auto . .. /boot
