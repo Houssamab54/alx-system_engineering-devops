@@ -1,2 +1,2 @@
 #!/bin/bash
-expr $BREATH \* $LOVE | xargs printf "%d\n"
+echo $(($BREATH ** $LOVE))  | xargs printf "%d\n"
