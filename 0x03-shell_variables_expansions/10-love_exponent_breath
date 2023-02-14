@@ -1,2 +1,2 @@
 #!/bin/bash
-printf('%d\n',expr  $BREATH \* $LOVE)
+expr $BREATH \* $LOVE | xargs printf "%d\n"
